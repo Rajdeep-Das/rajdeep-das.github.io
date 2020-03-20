@@ -41,20 +41,17 @@
         <section class="sidebar">
             <div class="inner">
                 <div class="clipper">
-                    <h2>Featured</h2>
+                    <h3>Featured Post</h3>          
+                    <div id="medium_blog_container">
+                    </div>
                 </div>
             </div>
             <div class="anim-panel">
-                <p>Software Engineer, Developer, Entrepreneur, Building Products and Helping Companies.Love Working With
-                    Startups.
-                    Your favorite developer. Unleashed Your Instinct. Join us (or me) for finding fun in creation.</p>
-                    <p>Back-end to Front-end with desktop,mobile platform.Performace and reliability in mind.</p>
-
-                <a href="#" class="read-btn">Read More</a>
+                Your favorite developer. Unleashed Your Instinct. Join us (or me) for finding fun in creation.</p>
+                <a href="https://medium.com/@rajdeepdas.india" class="read-btn">Read More</a>
             </div>
-
-
         </section>
+
         <section class="subscribe">
             <div class="inner">
                 <div class="clipper">
@@ -69,7 +66,12 @@
 
         </section>
     </div>
-
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <!-- Load our React component. -->
+    <script src="medium_post_component.js"></script>
 </body>
 
 </html>

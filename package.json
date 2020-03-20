@@ -1,0 +1,24 @@
+{
+  "name": "My_Site",
+  "version": "1.0.0",
+  "description": "\"# rajdeep-das-website\"",
+  "main": "medium_post_component.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajdeep-Das/rajdeep-das-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rajdeep-Das/rajdeep-das-website/issues"
+  },
+  "homepage": "https://github.com/Rajdeep-Das/rajdeep-das-website#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
