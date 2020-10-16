@@ -31,7 +31,7 @@ var MediumPost = function (_React$Component) {
     value: function componentDidMount() {
       var _this2 = this;
 
-      fetch(" https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40rajdeepdas.india&api_key=ouyqtkrmmakif82vhnzesowt4nepfun4ngpo0olk").then(function (res) {
+      fetch("https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40rajdeep-das&api_key=ouyqtkrmmakif82vhnzesowt4nepfun4ngpo0olk").then(function (res) {
         return res.json();
       }).then(function (result) {
         _this2.setState({
