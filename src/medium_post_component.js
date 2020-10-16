@@ -13,7 +13,7 @@ class MediumPost extends React.Component {
   }
 
   componentDidMount() {
-    fetch(" https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40rajdeepdas.india&api_key=ouyqtkrmmakif82vhnzesowt4nepfun4ngpo0olk")
+    fetch("https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40rajdeep-das&api_key=ouyqtkrmmakif82vhnzesowt4nepfun4ngpo0olk")
       .then(res => res.json())
       .then(
         (result) => {
